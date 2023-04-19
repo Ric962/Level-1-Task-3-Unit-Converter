@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+    <link rel = "stylesheet" href="style.css">
+	<link rel="icon" href="images/sun-temperature.ico">
+    <script src="script.js"></script>
+</head>
+<body>
+	<h1>Temperature Converter</h1>
+	<p>Enter a temperature and select the unit:</p>
+	<input type="text" id="temp-input" name="temp-input" placeholder="Temperature">
+	<input type="radio" id="celsius-radio" name="unit" value="celsius" checked>
+	<label for="celsius-radio">Celsius</label>
+	<input type="radio" id="fahrenheit-radio" name="unit" value="fahrenheit">
+	<label for="fahrenheit-radio">Fahrenheit</label>
+	<button onclick="convert()">Convert</button>
+	<p id="result"></p>
+</body>
+</html>
